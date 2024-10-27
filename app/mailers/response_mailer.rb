@@ -12,6 +12,6 @@ class ResponseMailer < ApplicationMailer
     @prompt = prompt
     @response = response["choices"].map { _1["message"]["content"] }.join("\n")
 
-    mail(to: mail.from, subject: "Re: #{subject}", body: @response)
+    mail(to: mail.from, subject: "RE: #{subject}", body: @response)
   end
 end
