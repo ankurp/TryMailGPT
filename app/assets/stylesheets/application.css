@@ -10,5 +10,12 @@ a {
 
 main {
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 380px;
+}
+
+img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: 0 auto;
 }
