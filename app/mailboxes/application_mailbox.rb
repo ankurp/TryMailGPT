@@ -1,3 +1,3 @@
 class ApplicationMailbox < ActionMailbox::Base
-  routing(/@trymailgpt.com$/i => :chat)
+  routing(/@trymailgpt\.com$/i => :chat)
 end
