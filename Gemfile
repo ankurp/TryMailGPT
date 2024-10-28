@@ -63,3 +63,5 @@ group :test do
 end
 
 gem "ruby-openai", "~> 7.3"
+
+gem "mailgun-ruby", "~> 1.2"
