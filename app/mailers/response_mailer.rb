@@ -4,7 +4,7 @@ class ResponseMailer < ApplicationMailer
     response = client.chat(
       parameters: {
         model: "gpt-4o",
-        messages: [{ role: "user", content: prompt }],
+        messages: [ { role: "user", content: prompt } ],
         temperature: 0.7
       }
     )
