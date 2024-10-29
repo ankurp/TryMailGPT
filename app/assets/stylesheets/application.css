@@ -2,6 +2,12 @@ body {
   background: rgb(30, 30, 30);
   color: rgb(133, 133, 133);
   font-family: -apple-system, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h4 {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -18,4 +24,9 @@ img {
   max-width: 380px;
   display: block;
   margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
