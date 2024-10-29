@@ -8,6 +8,9 @@ body {
 h1, h4 {
   margin: 0;
   padding: 0;
+  background: linear-gradient(45deg, #46C8C8, #ffd000);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {

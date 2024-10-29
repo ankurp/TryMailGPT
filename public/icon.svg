@@ -1,4 +1,4 @@
 <svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="256" cy="256" r="256" fill="rgb(133, 133, 133)"/>
+  <circle cx="256" cy="256" r="256" fill="#46C8C8"/>
   <text x="50%" y="50%" font-size="320" text-anchor="middle" alignment-baseline="middle">🤖</text>
 </svg>
