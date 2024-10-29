@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.0.rc1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
-# Use postgresql as the database for Active Record
+# Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -63,5 +63,4 @@ group :test do
 end
 
 gem "ruby-openai", "~> 7.3"
-
 gem "mailgun-ruby", "~> 1.2"
