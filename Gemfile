@@ -64,3 +64,5 @@ end
 
 gem "ruby-openai", "~> 7.3"
 gem "mailgun-ruby", "~> 1.2"
+
+gem "honeybadger", "~> 5.18"
