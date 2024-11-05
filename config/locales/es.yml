@@ -1,0 +1,13 @@
+es:
+  meta:
+    description: Simplemente envía tus preguntas a hi@trymailgpt.com y recibe respuestas impulsadas por IA directamente en tu bandeja de entrada. No se requiere cuenta.
+    title: 📧🤖 Email GPT como Servicio
+  home:
+    title: Prueba Mail GPT
+    subtitle: ChatGPT sin complicaciones
+    description: Olvídate de crear cuentas e interfaces complejas. Simplemente envía tus preguntas a %{email} y recibe respuestas impulsadas por IA directamente en tu bandeja de entrada.
+    feature-1: 📧 Tan fácil como enviar un email
+    feature-2: ⚡ Respuestas instantáneas de ChatGPT
+    feature-3: 🔐 No requiere cuenta
+    post-script: "PD: No olvides revisar tu carpeta de spam si no recibes una respuesta en tu bandeja de entrada 😀"
+    screenshot-alt: Captura de pantalla mostrando ejemplo de pregunta y respuesta por email IA 

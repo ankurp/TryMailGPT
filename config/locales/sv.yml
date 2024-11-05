@@ -1,0 +1,13 @@
+sv:
+  meta:
+    description: Skicka bara dina frågor till hi@trymailgpt.com och få AI-drivna svar direkt i din inkorg. Inget konto krävs.
+    title: 📧🤖 Email GPT som Tjänst
+  home:
+    title: Prova Mail GPT
+    subtitle: ChatGPT utan krångel
+    description: Glöm kontoregistrering och komplicerade gränssnitt. Skicka bara dina frågor till %{email} och få AI-drivna svar direkt i din inkorg.
+    feature-1: 📧 Lika enkelt som att skicka ett mail
+    feature-2: ⚡ Omedelbara ChatGPT-svar
+    feature-3: 🔐 Inget konto krävs
+    post-script: "PS: Glöm inte att kolla skräppostmappen om du inte får något svar i inkorgen 😀"
+    screenshot-alt: Skärmdump som visar exempel på fråga och AI-e-postsvar 

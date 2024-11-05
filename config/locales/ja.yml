@@ -1,0 +1,13 @@
+ja:
+  meta:
+    description: hi@trymailgpt.com に質問をメールするだけで、AI駆動の回答が直接メールボックスに届きます。アカウント登録不要。
+    title: 📧🤖 Email GPT サービス
+  home:
+    title: Mail GPT を試す
+    subtitle: 手間なしでChatGPTを利用
+    description: アカウント作成や複雑なインターフェースは不要です。%{email} に質問をメールするだけで、AI駆動の回答が直接メールボックスに届きます。
+    feature-1: 📧 メールを送るだけの簡単操作
+    feature-2: ⚡ ChatGPTからの即時応答
+    feature-3: 🔐 アカウント登録不要
+    post-script: "追伸：受信トレイに回答が届かない場合は、迷惑メールフォルダをご確認ください 😀"
+    screenshot-alt: 質問例とAIメール応答のスクリーンショット 

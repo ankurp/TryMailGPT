@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    accept_language (2.0.7)
     actioncable (8.0.0.rc2)
       actionpack (= 8.0.0.rc2)
       activesupport (= 8.0.0.rc2)
@@ -99,7 +100,7 @@ GEM
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crass (1.0.6)
-    date (3.3.4)
+    date (3.4.0)
     debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
@@ -124,7 +125,7 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    honeybadger (5.19.1)
+    honeybadger (5.19.2)
       logger
     http-accept (1.7.0)
     http-cookie (1.0.7)
@@ -142,7 +143,7 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.7.3)
+    json (2.7.6)
     kamal (2.3.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
@@ -208,7 +209,7 @@ GEM
       racc (~> 1.4)
     ostruct (0.6.0)
     parallel (1.26.3)
-    parser (3.3.5.0)
+    parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
     propshaft (1.1.0)
@@ -228,9 +229,8 @@ GEM
       rack (>= 3.0.0)
     rack-test (2.1.0)
       rack (>= 1.3)
-    rackup (2.1.0)
+    rackup (2.2.0)
       rack (>= 3)
-      webrick (~> 1.8)
     rails (8.0.0.rc2)
       actioncable (= 8.0.0.rc2)
       actionmailbox (= 8.0.0.rc2)
@@ -273,7 +273,7 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     rexml (3.3.9)
-    rubocop (1.67.0)
+    rubocop (1.68.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -283,7 +283,7 @@ GEM
       rubocop-ast (>= 1.32.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.32.3)
+    rubocop-ast (1.34.0)
       parser (>= 3.3.1.0)
     rubocop-minitest (0.36.0)
       rubocop (>= 1.61, < 2.0)
@@ -291,7 +291,7 @@ GEM
     rubocop-performance (1.22.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rails (2.26.2)
+    rubocop-rails (2.27.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
@@ -331,11 +331,15 @@ GEM
       railties (>= 7.1)
       thor (~> 1.3.1)
     sqlite3 (2.2.0-aarch64-linux-gnu)
+    sqlite3 (2.2.0-aarch64-linux-musl)
     sqlite3 (2.2.0-arm-linux-gnu)
+    sqlite3 (2.2.0-arm-linux-musl)
     sqlite3 (2.2.0-arm64-darwin)
     sqlite3 (2.2.0-x86-linux-gnu)
+    sqlite3 (2.2.0-x86-linux-musl)
     sqlite3 (2.2.0-x86_64-darwin)
     sqlite3 (2.2.0-x86_64-linux-gnu)
+    sqlite3 (2.2.0-x86_64-linux-musl)
     sshkit (1.23.2)
       base64
       net-scp (>= 1.1.2)
@@ -365,7 +369,6 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webrick (1.8.2)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -376,13 +379,22 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
   arm-linux
+  arm-linux-gnu
+  arm-linux-musl
   arm64-darwin
   x86-linux
+  x86-linux-gnu
+  x86-linux-musl
   x86_64-darwin
   x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
+  accept_language (~> 2.0)
   bootsnap
   brakeman
   capybara

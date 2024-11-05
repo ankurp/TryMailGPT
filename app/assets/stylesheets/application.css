@@ -33,3 +33,9 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: embed;
+}

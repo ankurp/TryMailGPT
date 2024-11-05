@@ -1,0 +1,13 @@
+it:
+  meta:
+    description: Invia semplicemente le tue domande a hi@trymailgpt.com e ricevi risposte alimentate dall'IA direttamente nella tua casella di posta. Nessun account richiesto.
+    title: 📧🤖 Email GPT come Servizio
+  home:
+    title: Prova Mail GPT
+    subtitle: ChatGPT senza complicazioni
+    description: Dimentica la creazione dell'account e le interfacce complesse. Invia semplicemente le tue domande a %{email} e ricevi risposte alimentate dall'IA direttamente nella tua casella di posta.
+    feature-1: 📧 Facile come inviare una email
+    feature-2: ⚡ Risposte ChatGPT istantanee
+    feature-3: 🔐 Nessun account necessario
+    post-script: "PS: Non dimenticare di controllare la cartella spam se non ricevi una risposta nella tua casella di posta 😀"
+    screenshot-alt: Screenshot che mostra esempio di domanda e risposta email IA 

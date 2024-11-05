@@ -1,0 +1,13 @@
+de:
+  meta:
+    description: Senden Sie Ihre Fragen einfach an hi@trymailgpt.com und erhalten Sie KI-gestützte Antworten direkt in Ihrem Posteingang. Kein Konto erforderlich.
+    title: 📧🤖 Email GPT als Service
+  home:
+    title: Mail GPT ausprobieren
+    subtitle: ChatGPT ohne Umstände
+    description: Vergessen Sie Kontoerstellung und komplexe Benutzeroberflächen. Senden Sie einfach Ihre Fragen an %{email} und erhalten Sie KI-gestützte Antworten direkt in Ihrem Posteingang.
+    feature-1: 📧 So einfach wie eine E-Mail senden
+    feature-2: ⚡ Sofortige ChatGPT-Antworten
+    feature-3: 🔐 Kein Konto erforderlich
+    post-script: "PS: Vergessen Sie nicht, Ihren Spam-Ordner zu überprüfen, falls Sie keine Antwort in Ihrem Posteingang erhalten 😀"
+    screenshot-alt: Screenshot zeigt Beispielfrage und KI-E-Mail-Antwort 

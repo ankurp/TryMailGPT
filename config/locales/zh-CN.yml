@@ -1,0 +1,13 @@
+zh-CN:
+  meta:
+    description: 只需发送邮件至 hi@trymailgpt.com，即可直接在收件箱中收到 AI 驱动的回复。无需注册账号。
+    title: 📧🤖 Email GPT 服务
+  home:
+    title: 体验 Mail GPT
+    subtitle: 更简单的 ChatGPT 使用方式
+    description: 无需注册账号，无需复杂界面。只需发送邮件至 %{email}，即可直接在收件箱中收到 AI 驱动的回复。
+    feature-1: 📧 像发送邮件一样简单
+    feature-2: ⚡ ChatGPT 即时回复
+    feature-3: 🔐 无需注册账号
+    post-script: "注：如果您在收件箱中没有收到回复，请检查垃圾邮件文件夹 😀"
+    screenshot-alt: 显示示例问题和 AI 邮件回复的截图 

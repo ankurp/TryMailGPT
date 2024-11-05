@@ -1,0 +1,13 @@
+ id:
+  meta:
+    description: Cukup kirim pertanyaan Anda ke hi@trymailgpt.com dan terima jawaban berbasis AI langsung di kotak masuk Anda. Tidak perlu akun.
+    title: 📧🤖 Layanan Email GPT
+  home:
+    title: Coba Mail GPT
+    subtitle: ChatGPT tanpa ribet
+    description: Lupakan pembuatan akun dan antarmuka yang rumit. Cukup kirim pertanyaan Anda ke %{email} dan terima jawaban berbasis AI langsung di kotak masuk Anda.
+    feature-1: 📧 Semudah mengirim email
+    feature-2: ⚡ Jawaban ChatGPT instan
+    feature-3: 🔐 Tidak perlu akun
+    post-script: "NB: Jangan lupa cek folder spam jika Anda tidak menerima balasan di kotak masuk 😀"
+    screenshot-alt: Tangkapan layar menunjukkan contoh pertanyaan dan jawaban email AI

@@ -1,18 +1,18 @@
 <main>
-  <h1>Try Mail GPT</h1>
-  <h4>ChatGPT without the hassle</h4>
+  <h1><%= t("home.title") %></h1>
+  <h4><%= t("home.subtitle") %></h4>
   <p>
-    Skip the account creation and complex interfaces. Simply email your questions to <a href="mailto:hi@trymailgpt.com">hi@trymailgpt.com</a> and receive AI-powered responses directly in your inbox.
+    <%= t("home.description", email: '<a href="mailto:hi@trymailgpt.com">hi@trymailgpt.com</a>').html_safe %>
   </p>
   <ul>
-    <li>📧 Easy as sending an email</li>
-    <li>⚡ Instant ChatGPT responses</li>
-    <li>🔐 No account required</li>
+    <% (1..3).each do |i| %>
+      <li><%= t("home.feature-#{i}") %></li>
+    <% end %>
   </ul>
   <p>
-    PS: Don't forget to check your spam folder if you don't get a response in your Inbox 😀
+    <%= t("home.post-script") %>
   </p>
   <p>
-    <%= image_tag "screenshot.jpg" %>
+    <%= image_tag "screenshot.jpg", alt: t("home.screenshot-alt") %>
   </p>
 </main>

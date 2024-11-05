@@ -1,0 +1,13 @@
+vi:
+  meta:
+    description: Chỉ cần gửi câu hỏi của bạn đến hi@trymailgpt.com và nhận câu trả lời từ AI trực tiếp trong hộp thư của bạn. Không cần tài khoản.
+    title: 📧🤖 Dịch vụ Email GPT
+  home:
+    title: Dùng thử Mail GPT
+    subtitle: ChatGPT không rắc rối
+    description: Quên đi việc tạo tài khoản và giao diện phức tạp. Chỉ cần gửi câu hỏi của bạn đến %{email} và nhận câu trả lời từ AI trực tiếp trong hộp thư.
+    feature-1: 📧 Dễ như gửi email
+    feature-2: ⚡ Trả lời ChatGPT tức thì
+    feature-3: 🔐 Không cần tài khoản
+    post-script: "Lưu ý: Đừng quên kiểm tra thư mục spam nếu bạn không nhận được phản hồi trong hộp thư đến 😀"
+    screenshot-alt: Ảnh chụp màn hình hiển thị ví dụ câu hỏi và câu trả lời email AI 

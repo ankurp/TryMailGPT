@@ -1,0 +1,13 @@
+ko:
+  meta:
+    description: hi@trymailgpt.com으로 질문을 이메일로 보내기만 하면 AI 기반 답변을 받아보실 수 있습니다. 계정 불필요.
+    title: 📧🤖 Email GPT 서비스
+  home:
+    title: Mail GPT 체험하기
+    subtitle: 번거로움 없는 ChatGPT
+    description: 계정 생성과 복잡한 인터페이스는 잊으세요. %{email}로 질문을 보내기만 하면 AI 기반 답변을 받아보실 수 있습니다.
+    feature-1: 📧 이메일 보내기처럼 간단
+    feature-2: ⚡ ChatGPT 즉시 응답
+    feature-3: 🔐 계정 불필요
+    post-script: "PS: 받은 편지함에서 답장을 못 받으셨다면 스팸 폴더를 확인해 주세요 😀"
+    screenshot-alt: 질문 예시와 AI 이메일 응답 스크린샷 

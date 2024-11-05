@@ -1,0 +1,13 @@
+tr:
+  meta:
+    description: Sorularınızı hi@trymailgpt.com adresine gönderin ve yapay zeka destekli yanıtları doğrudan gelen kutunuzda alın. Hesap oluşturmanız gerekmez.
+    title: 📧🤖 Email GPT Servisi
+  home:
+    title: Mail GPT'yi Deneyin
+    subtitle: Zahmetsiz ChatGPT
+    description: Hesap oluşturma ve karmaşık arayüzleri unutun. Sorularınızı %{email} adresine gönderin ve yapay zeka destekli yanıtları doğrudan gelen kutunuzda alın.
+    feature-1: 📧 E-posta göndermek kadar kolay
+    feature-2: ⚡ Anında ChatGPT yanıtları
+    feature-3: 🔐 Hesap gerektirmez
+    post-script: "Not: Gelen kutunuzda yanıt göremezseniz spam klasörünü kontrol etmeyi unutmayın 😀"
+    screenshot-alt: Örnek soru ve yapay zeka e-posta yanıtını gösteren ekran görüntüsü 

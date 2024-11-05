@@ -1,0 +1,13 @@
+nl:
+  meta:
+    description: Stuur simpelweg je vragen naar hi@trymailgpt.com en ontvang AI-aangedreven antwoorden direct in je inbox. Geen account nodig.
+    title: 📧🤖 Email GPT als Service
+  home:
+    title: Probeer Mail GPT
+    subtitle: ChatGPT zonder gedoe
+    description: Vergeet accountregistratie en ingewikkelde interfaces. Stuur simpelweg je vragen naar %{email} en ontvang AI-aangedreven antwoorden direct in je inbox.
+    feature-1: 📧 Net zo makkelijk als een email versturen
+    feature-2: ⚡ Directe ChatGPT antwoorden
+    feature-3: 🔐 Geen account nodig
+    post-script: "PS: Vergeet niet je spam-folder te controleren als je geen antwoord in je inbox ontvangt 😀"
+    screenshot-alt: Schermafbeelding met voorbeeld van vraag en AI-email antwoord 
