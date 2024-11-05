@@ -1,1 +1,18 @@
-# See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+# robots.txt for trymailgpt.com
+# Attention, robots! Play nice and stay out of my stuff.
+
+User-agent: *
+# No snooping around here, thank you very much.
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /secrets/
+Disallow: /do-not-enter/
+Disallow: /go-away-bots/
+Disallow: /personal-space/
+Disallow: /api/ # Yep, don't even think about it.
+
+# Fine, you can look here. Happy now?
+Allow: /
+
+# P.S. If you're still reading this, go do something useful.
