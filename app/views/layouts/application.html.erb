@@ -10,6 +10,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <% I18n.available_locales.each do |locale| %>
+      <link rel="alternate" hreflang="<%= locale %>" href="<%= url_for(locale: locale, only_path: false) %>" />
+    <% end %>
+    <link rel="alternate" hreflang="x-default" href="/" />
+
     <%= yield :head %>
 
     <link rel="icon" href="/favicon.png" type="image/png" />

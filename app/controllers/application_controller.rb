@@ -9,9 +9,9 @@ class ApplicationController < ActionController::Base
   end
 
   def best_locale_from_request
-    return I18n.default_locale unless request.headers.key?("HTTP_ACCEPT_LANGUAGE")
+    return I18n.default_locale if params[:locale].blank? && !request.headers.key?("HTTP_ACCEPT_LANGUAGE")
 
-    string = request.headers.fetch("HTTP_ACCEPT_LANGUAGE")
+    string = params[:locale] || request.headers.fetch("HTTP_ACCEPT_LANGUAGE")
     if (locale = AcceptLanguage.parse(string).match(*I18n.available_locales))
       return locale
     end
