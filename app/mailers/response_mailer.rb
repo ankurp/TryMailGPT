@@ -1,5 +1,12 @@
 class ResponseMailer < ApplicationMailer
-  def send_response(from, subject, prompt)
+  def send_response(message_id)
+    mail = ActionMailbox::InboundEmail.find_by_message_id(message_id).mail
+    body = if mail.multipart?
+      mail.text_part.decoded
+    else
+      mail.decoded
+    end
+
     client = OpenAI::Client.new
     response = client.chat(
       parameters: {
@@ -15,20 +22,19 @@ class ResponseMailer < ApplicationMailer
               "Take a deep breath. You got this!"
             ].join(" ")
           },
-          { role: "user", content: prompt }
+          { role: "user", content: mail.raw_source }
         ]
       }
     )
 
-    @prompt = prompt
     @response = response["choices"].map { _1["message"]["content"] }.join("\n")
 
     mail(
-      to: from,
-      subject: "Re: #{subject}",
+      to: mail.from,
+      subject: "Re: #{mail.subject}",
       body: [
         @response,
-        prompt.split("\n").map { "> #{_1}" }.join("\n")
+        body.split("\n").map { "> #{_1}" }.join("\n")
       ].join("\n\n")
     )
   end
