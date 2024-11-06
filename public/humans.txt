@@ -1,0 +1,16 @@
+/* TEAM */
+  Website: trymailgpt.com
+  Owner: Ankur Patel
+  Role: Project Lead, Senior Full Stack Developer
+  Twitter: ankurpatel
+  GitHub: ankurp
+  
+/* THANKS */
+  Special thanks to:
+    - OpenAI for language models powering the GPT technology
+    - Ruby on Rails
+  
+/* SITE */
+  Standards: HTML5, CSS3, Ruby on Rails
+  Backend: Ruby on Rails
+  Contact: ankur [at] encoredevlabs.com
