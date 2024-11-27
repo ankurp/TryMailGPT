@@ -63,6 +63,6 @@ group :test do
 end
 
 gem "accept_language", "~> 2.0"
-gem "honeybadger", "~> 5.24"
+gem "honeybadger", "~> 5.25"
 gem "mailgun-ruby", "~> 1.2"
 gem "ruby-openai", "~> 7.3"
