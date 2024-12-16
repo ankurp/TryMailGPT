@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    accept_language (2.0.7)
+    accept_language (2.0.8)
     actioncable (8.0.0)
       actionpack (= 8.0.0)
       activesupport (= 8.0.0)
